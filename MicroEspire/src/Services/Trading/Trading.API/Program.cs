@@ -1,5 +1,8 @@
-var builder = WebApplication.CreateBuilder(args);
+using Microsoft.Extensions.Hosting;
 
+var builder = WebApplication.CreateBuilder(args);
+builder.AddServiceDefaults();
+builder.Services.AddApplicationServices();
 // Add services to the container.
 
 builder.Services.AddControllers();
