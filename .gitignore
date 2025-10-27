@@ -1,2 +1,7 @@
 ﻿MicroEspire/.vs
 **/obj
+**/bin
+.vs/MicroEspire/FileContentIndex
+.vs/MicroEspire/CopilotIndices
+.vs/MicroEspire/v17
+.vs/MicroEspire/solutionOpened
