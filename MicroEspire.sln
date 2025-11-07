@@ -11,9 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{6DCDA908-B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{F595B4E6-5CE9-46BC-A1F0-6D1D59972F43}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Trading", "Trading", "{DF4C5791-5C82-48CF-B8A2-E472DAE44325}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TradingService", "TradingService", "{DF4C5791-5C82-48CF-B8A2-E472DAE44325}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wallet", "Wallet", "{9BEF9BDF-6362-4C15-88BC-129AE933B7AD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WalletService", "WalletService", "{9BEF9BDF-6362-4C15-88BC-129AE933B7AD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Market", "Market", "{E551F7B7-DD19-405C-B15A-46F6F648C4C6}"
 EndProject
@@ -58,6 +58,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trading.Infrastructure", "MicroEspire\src\Services\Trading\Trading.Infrastructure\Trading.Infrastructure.csproj", "{A4B3FA0E-5145-EE3E-85DA-643AD88004DB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "MicroEspire\src\ApiGateway\ApiGateway.csproj", "{8D634B3F-4A21-E0A8-24CD-7B539FF2E824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalletService.Domain", "MicroEspire\src\Services\Wallet\Wallet.Domain\WalletService.Domain.csproj", "{8AC00E17-5C5F-4280-99CB-432C921F799E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trading.Unitests", "MicroEspire\tests\Unitest\Trading.Unitests\Trading.Unitests.csproj", "{8C30FE29-FFF5-4D02-AD85-EF98A0F9AB80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -113,6 +117,14 @@ Global
 		{8D634B3F-4A21-E0A8-24CD-7B539FF2E824}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D634B3F-4A21-E0A8-24CD-7B539FF2E824}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D634B3F-4A21-E0A8-24CD-7B539FF2E824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AC00E17-5C5F-4280-99CB-432C921F799E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AC00E17-5C5F-4280-99CB-432C921F799E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AC00E17-5C5F-4280-99CB-432C921F799E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AC00E17-5C5F-4280-99CB-432C921F799E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C30FE29-FFF5-4D02-AD85-EF98A0F9AB80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C30FE29-FFF5-4D02-AD85-EF98A0F9AB80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C30FE29-FFF5-4D02-AD85-EF98A0F9AB80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C30FE29-FFF5-4D02-AD85-EF98A0F9AB80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -143,6 +155,8 @@ Global
 		{469804E2-2CCC-E3C9-27F7-E1763EA3C3A1} = {DF4C5791-5C82-48CF-B8A2-E472DAE44325}
 		{A4B3FA0E-5145-EE3E-85DA-643AD88004DB} = {DF4C5791-5C82-48CF-B8A2-E472DAE44325}
 		{8D634B3F-4A21-E0A8-24CD-7B539FF2E824} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{8AC00E17-5C5F-4280-99CB-432C921F799E} = {9BEF9BDF-6362-4C15-88BC-129AE933B7AD}
+		{8C30FE29-FFF5-4D02-AD85-EF98A0F9AB80} = {BB3B84FB-87B8-45F2-A6C6-719CD4C2783F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A9F1775D-4CE7-44F4-AAC0-5118582F540A}
