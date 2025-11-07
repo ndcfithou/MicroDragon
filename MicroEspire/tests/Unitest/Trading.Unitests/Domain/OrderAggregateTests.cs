@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Trading.Domain.AggregatesModel.OrderAggregate;
+using Trading.Domain.Events;
 
 namespace Trading.Unitests.Domain
 {
@@ -140,3 +142,4 @@ namespace Trading.Unitests.Domain
             Assert.Equal(3, order.Fills.Count);
         }
     }
+}
